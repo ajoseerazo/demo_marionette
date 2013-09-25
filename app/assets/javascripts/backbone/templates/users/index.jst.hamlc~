@@ -1,0 +1,9 @@
+%a.btn.btn-primary{:href => '#/new'}
+	Nuevo Usuario
+
+%thead
+	%tr
+		%th Nombre
+		%th	Apellido
+		%th Edad
+%tbody

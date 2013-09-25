@@ -1,0 +1,10 @@
+%a.btn.btn-primary{:href => '#/new'}
+	Nuevo Usuario
+
+%table.table.table-striped
+	%thead
+		%tr
+			%th Nombre
+			%th	Apellido
+			%th Edad
+	%tbody

@@ -1,0 +1,7 @@
+DemoMarionette.Views.UsersView = Backbone.Marionette.CompositeView.extend({
+	template: JST['backbone/templates/users/index'],
+	
+	itemView: UserView,
+
+	itemViewContainer: 'tbody'	
+});

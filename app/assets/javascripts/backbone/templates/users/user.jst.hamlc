@@ -1,0 +1,11 @@
+%td
+	= @firstname
+%td
+	= @lastname
+%td
+	= @age
+%td
+	%a.btn.btn-small{:href => '#/edit/#{@id}'}
+		Editar
+	%button.btn.btn-small.btn-danger.destroy
+		Eliminar
