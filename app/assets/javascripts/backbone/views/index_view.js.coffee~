@@ -1,3 +1,0 @@
-class UserView extends Backbone.Marionette.CompositeView
-
-class UserView extends Backbone.Marionette.ItemView
